@@ -22,6 +22,34 @@ import {
   Sparkles,
 } from 'lucide-react';
 
+// Official Directory of Municipal Departments & Heads (baler.gov.ph)
+const departmentsDirectory = [
+  { office: 'Office of the Municipal Administrator', head: 'Mr. Vincent Paladio', tag: 'Administration' },
+  { office: 'Municipal Planning & Development Office (MPDO)', head: 'Engr. Manuel Q. Hernandez', tag: 'Planning & Infrastructure' },
+  { office: 'Municipal Engineering Office (MEO)', head: 'Engr. Sofronio Raul A. Egargue', tag: 'Public Works' },
+  { office: 'Municipal Treasury Office (MTO)', head: 'Ms. Sumilang R. Villaflor', tag: 'Finance & Tax' },
+  { office: 'Municipal Accounting Office (MAO)', head: 'Acct. Gemma B. Villareal', tag: 'Financial Records' },
+  { office: 'Municipal Budget Office (MBO)', head: 'Ms. Curie S. Bernardino', tag: 'Fiscal Management' },
+  { office: 'Municipal Health Office (MHO)', head: 'Dr. Mael M. Cautivar', tag: 'Health & Medical' },
+  { office: 'Municipal Social Welfare & Development (MSWDO)', head: 'Ms. Corazon T. Virrey', tag: 'Social Services' },
+  { office: 'Municipal Agriculture Office (OIC)', head: 'Mr. Ronnie L. Mata', tag: 'Agriculture & Agri-fisheries' },
+  { office: 'Municipal Environment & Natural Resources (MENRO)', head: 'Ms. Ma. Liza V. Costa', tag: 'Environment' },
+  { office: 'Municipal Tourism Office', head: 'Ms. Riza P. Del Rosario', tag: 'Tourism & Culture' },
+  { office: 'Disaster Risk Reduction & Management Office (MDRRMO)', head: 'Mr. Arturo A. Molina Jr.', tag: 'Safety & Emergency' },
+  { office: 'Human Resource Management Office (HRMO)', head: 'Ms. Evelyn R. Leander', tag: 'Human Resources' },
+  { office: 'Public Employment Services Office (PESO)', head: 'Ms. Maricris D. Sison', tag: 'Jobs & Employment' },
+  { office: 'Municipal Civil Registrar (OIC)', head: 'Ms. Joyce V. Constantino', tag: 'Civil Registration' },
+  { office: 'Business Permit & Licensing Office (BPLO)', head: 'Ms. Mary Jane A. Dumpit', tag: 'Business Licensing' },
+  { office: 'Municipal Assessor Office (OIC)', head: 'Mr. Richard F. Rutaquio', tag: 'Property Assessment' },
+  { office: 'Municipal Library', head: 'Ms. Rhodora M. Bernalte', tag: 'Education & Archives' },
+  { office: 'Secretary to the Sangguniang Bayan', head: 'Mr. Israel N. Galban', tag: 'Legislative Secretariat' },
+  { office: 'Local Regional Resources Economic Division', head: 'Ms. Glenda P. Dumapay', tag: 'Economic Development' },
+  { office: 'Baler Central Terminal', head: 'Mr. Buenaventura Roque', tag: 'Economic Enterprise' },
+  { office: 'Baler Public Market', head: 'Mr. Irwin Lombres', tag: 'Economic Enterprise' },
+  { office: 'Baler Municipal Fish Port', head: 'Mr. Deogenes D. Villareal', tag: 'Economic Enterprise' },
+  { office: 'Baler Municipal Slaughterhouse', head: 'Mr. Donn Issel B. Laroza', tag: 'Economic Enterprise' },
+];
+
 export default function Government() {
   const { category } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -66,15 +94,6 @@ export default function Government() {
       badge: 'Legislative Head',
       contact: 'vicemayor@baler.gov.ph',
     },
-    {
-      role: 'Municipal Administrator',
-      name: 'Mr. Vincent Paladio',
-      office: 'Office of the Municipal Administrator',
-      description:
-        'Manages administrative workflows, inter-departmental coordination, and operational execution across all LGU offices.',
-      badge: 'Administration',
-      contact: 'admin@baler.gov.ph',
-    },
   ];
 
   const councilors = [
@@ -94,33 +113,6 @@ export default function Government() {
     { name: 'Hon. Concepcion P. Buencamino', title: 'Ex-Officio Member', role: 'Indigenous Peoples Mandatory Representative (IPMR)' },
   ];
 
-  // Official Directory of Municipal Departments & Heads (baler.gov.ph)
-  const departmentsDirectory = [
-    { office: 'Municipal Planning & Development Office (MPDO)', head: 'Engr. Manuel Q. Hernandez', tag: 'Planning & Infrastructure' },
-    { office: 'Municipal Engineering Office (MEO)', head: 'Engr. Sofronio Raul A. Egargue', tag: 'Public Works' },
-    { office: 'Municipal Treasury Office (MTO)', head: 'Ms. Sumilang R. Villaflor', tag: 'Finance & Tax' },
-    { office: 'Municipal Accounting Office (MAO)', head: 'Acct. Gemma B. Villareal', tag: 'Financial Records' },
-    { office: 'Municipal Budget Office (MBO)', head: 'Ms. Curie S. Bernardino', tag: 'Fiscal Management' },
-    { office: 'Municipal Health Office (MHO)', head: 'Dr. Mael M. Cautivar', tag: 'Health & Medical' },
-    { office: 'Municipal Social Welfare & Development (MSWDO)', head: 'Ms. Corazon T. Virrey', tag: 'Social Services' },
-    { office: 'Municipal Agriculture Office (OIC)', head: 'Mr. Ronnie L. Mata', tag: 'Agriculture & Agri-fisheries' },
-    { office: 'Municipal Environment & Natural Resources (MENRO)', head: 'Ms. Ma. Liza V. Costa', tag: 'Environment' },
-    { office: 'Municipal Tourism Office', head: 'Ms. Riza P. Del Rosario', tag: 'Tourism & Culture' },
-    { office: 'Disaster Risk Reduction & Management Office (MDRRMO)', head: 'Mr. Arturo A. Molina Jr.', tag: 'Safety & Emergency' },
-    { office: 'Human Resource Management Office (HRMO)', head: 'Ms. Evelyn R. Leander', tag: 'Human Resources' },
-    { office: 'Public Employment Services Office (PESO)', head: 'Ms. Maricris D. Sison', tag: 'Jobs & Employment' },
-    { office: 'Municipal Civil Registrar (OIC)', head: 'Ms. Joyce V. Constantino', tag: 'Civil Registration' },
-    { office: 'Business Permit & Licensing Office (BPLO)', head: 'Ms. Mary Jane A. Dumpit', tag: 'Business Licensing' },
-    { office: 'Municipal Assessor Office (OIC)', head: 'Mr. Richard F. Rutaquio', tag: 'Property Assessment' },
-    { office: 'Municipal Library', head: 'Ms. Rhodora M. Bernalte', tag: 'Education & Archives' },
-    { office: 'Secretary to the Sangguniang Bayan', head: 'Mr. Israel N. Galban', tag: 'Legislative Secretariat' },
-    { office: 'Local Regional Resources Economic Division', head: 'Ms. Glenda P. Dumapay', tag: 'Economic Development' },
-    { office: 'Baler Central Terminal', head: 'Mr. Buenaventura Roque', tag: 'Economic Enterprise' },
-    { office: 'Baler Public Market', head: 'Mr. Irwin Lombres', tag: 'Economic Enterprise' },
-    { office: 'Baler Municipal Fish Port', head: 'Mr. Deogenes D. Villareal', tag: 'Economic Enterprise' },
-    { office: 'Baler Municipal Slaughterhouse', head: 'Mr. Donn Issel B. Laroza', tag: 'Economic Enterprise' },
-  ];
-
   const filteredDepartments = useMemo(() => {
     if (!searchQuery.trim()) return departmentsDirectory;
     const query = searchQuery.toLowerCase();
@@ -130,7 +122,7 @@ export default function Government() {
         item.head.toLowerCase().includes(query) ||
         item.tag.toLowerCase().includes(query)
     );
-  }, [searchQuery, departmentsDirectory]);
+  }, [searchQuery]);
 
   return (
     <>
