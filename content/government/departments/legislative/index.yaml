@@ -1,0 +1,28 @@
+# Legislative Department Pages - Sangguniang Bayan of Baler
+layout: grid
+title: 'Sangguniang Bayan of Baler'
+description: 'The legislative body of the Municipality of Baler, Aurora presided over by Vice Mayor Hon. Denise Alyanna D. Angara.'
+pages:
+  - name: 'Hon. Nikki M. Nicolas'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Edrik Louie O. Etcubañez'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Ellah Cherryl G. Villacorte'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Venancio Aris A. Egargue'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Danilo M. Ong'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Julius Ceazar D. Grefalda'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Pedro Fernando D. Valenzuela'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Rolando C. Lelis'
+    description: 'Municipal Councilor • Member, Sangguniang Bayan'
+  - name: 'Hon. Eunie May Fernando'
+    description: 'Ex-Officio SB Member • SKMF President'
+  - name: 'Hon. David P. Orolfo, Jr.'
+    description: 'Ex-Officio SB Member • Liga ng mga Barangay (LNB) President'
+  - name: 'Hon. Concepcion P. Buencamino'
+    description: 'Ex-Officio SB Member • Indigenous Peoples Mandatory Representative (IPMR)'
+

@@ -1,0 +1,10 @@
+# Department Pages for Municipality of Baler, Aurora
+
+pages:
+  - name: 'Executive'
+    slug: 'executive'
+    description: "Learn about Municipal Mayor Hon. Rhett Ronan T. Angara and Vice Mayor Hon. Denise Alyanna D. Angara, executive initiatives, and civic programs in Baler."
+  - name: 'Legislative'
+    slug: 'legislative'
+    description: 'The Sangguniang Bayan of Baler consists of 8 elected Municipal Councilors, 3 Ex-Officio Members, and Vice Mayor Denise Alyanna D. Angara as Presiding Officer.'
+
