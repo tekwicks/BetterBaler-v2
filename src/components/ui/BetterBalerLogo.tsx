@@ -4,28 +4,14 @@ interface BetterBalerLogoProps {
   className?: string;
   height?: number | string;
   variant?: 'light' | 'dark' | 'auto';
-  withBackground?: boolean;
 }
 
 export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
   className = '',
   height = 44,
   variant = 'light',
-  withBackground = true,
 }) => {
   const isDark = variant === 'dark';
-
-  if (!isDark) {
-    return (
-      <img
-        src="/logo.jpg"
-        alt="BetterBaler.org Official Logo"
-        referrerPolicy="no-referrer"
-        style={{ height: typeof height === 'number' ? `${height}px` : height, width: 'auto' }}
-        className={`inline-block object-contain rounded-md ${className}`}
-      />
-    );
-  }
 
   return (
     <svg
@@ -36,9 +22,6 @@ export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
       className={`inline-block ${className}`}
       aria-label="BetterBaler.org Official Logo"
     >
-      {/* White Background fill matching uploaded logo image */}
-      {withBackground && <rect width="440" height="240" fill="#FFFFFF" rx="12" />}
-
       <defs>
         {/* Sun Glow / Gradient */}
         <radialGradient id="balerSunGlow" cx="50%" cy="50%" r="50%">
