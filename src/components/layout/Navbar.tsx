@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2 group py-1">
-              <BetterBalerLogo height={48} className="shrink-0 transition-transform group-hover:scale-105" />
+              <BetterBalerLogo height={62} className="shrink-0 transition-transform group-hover:scale-105" />
             </Link>
           </div>
 
