@@ -14,7 +14,18 @@ export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
   withBackground = true,
 }) => {
   const isDark = variant === 'dark';
-  const showBg = withBackground && !isDark;
+
+  if (!isDark) {
+    return (
+      <img
+        src="/logo.jpg"
+        alt="BetterBaler.org Official Logo"
+        referrerPolicy="no-referrer"
+        style={{ height: typeof height === 'number' ? `${height}px` : height, width: 'auto' }}
+        className={`inline-block object-contain rounded-md ${className}`}
+      />
+    );
+  }
 
   return (
     <svg
@@ -26,7 +37,7 @@ export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
       aria-label="BetterBaler.org Official Logo"
     >
       {/* White Background fill matching uploaded logo image */}
-      {showBg && <rect width="440" height="240" fill="#FFFFFF" rx="12" />}
+      {withBackground && <rect width="440" height="240" fill="#FFFFFF" rx="12" />}
 
       <defs>
         {/* Sun Glow / Gradient */}
