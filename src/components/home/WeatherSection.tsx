@@ -607,16 +607,16 @@ export default function WeatherSection() {
 
         <div className="flex flex-wrap items-center gap-3 text-xs font-medium">
           <a
-            href="tel:09171234567"
+            href="tel:09205941906"
             className="px-3 py-1.5 rounded-lg bg-primary-700 hover:bg-primary-600 text-white transition-colors border border-primary-600"
           >
-            MDRRMO: (042) 722-0000 / 0917-123-4567
+            MDRRMO: 0920-594-1906
           </a>
           <a
-            href="tel:09981234567"
+            href="tel:09985856227"
             className="px-3 py-1.5 rounded-lg bg-primary-700 hover:bg-primary-600 text-white transition-colors border border-primary-600"
           >
-            PCG Baler: 0998-123-4567
+            PCG Baler: 0998-585-6227
           </a>
         </div>
       </div>

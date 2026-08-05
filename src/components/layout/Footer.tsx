@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-3.5 w-3.5 text-primary-400 shrink-0" />
-                <span>MDRRMO Hotline: (042) 722-0000</span>
+                <span>MDRRMO Hotline: 0920-594-1906</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-3.5 w-3.5 text-primary-400 shrink-0" />

@@ -128,8 +128,8 @@ export default function Hero() {
                     <ShieldAlert className="h-4 w-4 text-amber-400" />
                     MDRRMO Emergency
                   </span>
-                  <a href="tel:0427220000" className="font-bold text-amber-300 underline">
-                    (042) 722-0000
+                  <a href="tel:09205941906" className="font-bold text-amber-300 underline">
+                    0920-594-1906
                   </a>
                 </div>
               </div>

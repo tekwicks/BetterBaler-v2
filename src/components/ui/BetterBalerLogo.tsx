@@ -4,14 +4,17 @@ interface BetterBalerLogoProps {
   className?: string;
   height?: number | string;
   variant?: 'light' | 'dark' | 'auto';
+  withBackground?: boolean;
 }
 
 export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
   className = '',
   height = 44,
   variant = 'light',
+  withBackground = true,
 }) => {
   const isDark = variant === 'dark';
+  const showBg = withBackground && !isDark;
 
   return (
     <svg
@@ -22,6 +25,9 @@ export const BetterBalerLogo: React.FC<BetterBalerLogoProps> = ({
       className={`inline-block ${className}`}
       aria-label="BetterBaler.org Official Logo"
     >
+      {/* White Background fill matching uploaded logo image */}
+      {showBg && <rect width="440" height="240" fill="#FFFFFF" rx="12" />}
+
       <defs>
         {/* Sun Glow / Gradient */}
         <radialGradient id="balerSunGlow" cx="50%" cy="50%" r="50%">

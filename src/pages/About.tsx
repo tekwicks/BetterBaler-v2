@@ -128,7 +128,7 @@ export default function About() {
                     <Phone className="h-4 w-4 text-sky-400 shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-white">MDRRMO Emergency Hotline</p>
-                      <p className="text-amber-300 font-bold">(042) 722-0000</p>
+                      <p className="text-amber-300 font-bold">0920-594-1906</p>
                     </div>
                   </div>
 

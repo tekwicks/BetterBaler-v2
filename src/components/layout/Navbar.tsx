@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2 group py-1">
-              <BetterBalerLogo height={48} className="shrink-0 transition-transform group-hover:scale-105" />
+              <BetterBalerLogo height={62} className="shrink-0 transition-transform group-hover:scale-105" />
             </Link>
           </div>
 
@@ -145,6 +145,13 @@ const Navbar: React.FC = () => {
               className="flex items-center text-slate-700 hover:text-primary-600 font-semibold text-sm transition-colors"
             >
               About
+            </Link>
+
+            <Link
+              to="/contact"
+              className="flex items-center text-slate-700 hover:text-primary-600 font-semibold text-sm transition-colors"
+            >
+              Contact
             </Link>
 
             {isMeilisearchEnabled && (
@@ -223,6 +230,13 @@ const Navbar: React.FC = () => {
             className="block px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 rounded-lg"
           >
             About Baler Portal
+          </Link>
+          <Link
+            to="/contact"
+            onClick={closeMenu}
+            className="block px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 rounded-lg"
+          >
+            Contact & Hotlines
           </Link>
           <a
             href="https://bettergov.ph/join-us"
