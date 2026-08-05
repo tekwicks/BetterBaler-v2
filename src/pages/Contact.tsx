@@ -772,7 +772,7 @@ export default function Contact() {
                     <Clock className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
                     <div>
                       <p className="font-bold text-white">LGU Operating Hours</p>
-                      <p className="text-slate-400 mt-0.5">Monday – Friday: 8:00 AM – 5:00 PM</p>
+                      <p className="text-slate-400 mt-0.5">Monday – Thursday: 7:00 AM – 6:00 PM</p>
                       <p className="text-[10px] text-slate-500 mt-0.5">(Excluding public holidays)</p>
                     </div>
                   </div>

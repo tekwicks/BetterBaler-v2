@@ -120,7 +120,7 @@ export default function Hero() {
 
                 <div className="flex justify-between items-center p-3 rounded-xl bg-slate-800/50 border border-slate-800">
                   <span className="text-slate-400">Municipal Hall Schedule</span>
-                  <span className="font-medium text-slate-200">Mon - Fri • 8:00 AM - 5:00 PM</span>
+                  <span className="font-medium text-slate-200">Mon - Thu • 7:00 AM - 6:00 PM</span>
                 </div>
 
                 <div className="flex justify-between items-center p-3 rounded-xl bg-amber-950/40 border border-amber-800/50 text-amber-200">

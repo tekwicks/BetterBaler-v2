@@ -25,9 +25,9 @@ export const mainNavigation: NavigationItem[] = [
     label: 'Government',
     href: '/government',
     children: [
-      { label: 'Municipal Departments Directory', href: '/government?tab=departments' },
       { label: 'Executive Leadership (Mayor & Vice Mayor)', href: '/government?tab=executive' },
       { label: 'Sangguniang Bayan (Legislative)', href: '/government?tab=legislative' },
+      { label: 'Municipal Departments Directory', href: '/government?tab=departments' },
       { label: 'Open Governance & FOI', href: '/government?tab=transparency' },
     ],
   },

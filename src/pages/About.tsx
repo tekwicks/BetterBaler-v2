@@ -120,7 +120,7 @@ export default function About() {
                     <Clock className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-white">Office Hours</p>
-                      <p className="text-slate-400">Monday – Friday: 8:00 AM – 5:00 PM</p>
+                      <p className="text-slate-400">Monday – Thursday: 7:00 AM – 6:00 PM</p>
                     </div>
                   </div>
 

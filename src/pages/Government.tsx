@@ -53,12 +53,12 @@ const departmentsDirectory = [
 export default function Government() {
   const { category } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialTab = searchParams.get('tab') || category || 'departments';
+  const initialTab = searchParams.get('tab') || category || 'executive';
 
   const [activeTab, setActiveTab] = useState<string>(
-    ['departments', 'executive', 'legislative', 'transparency'].includes(initialTab)
+    ['executive', 'legislative', 'departments', 'transparency'].includes(initialTab)
       ? initialTab
-      : 'departments'
+      : 'executive'
   );
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -172,19 +172,6 @@ export default function Government() {
           <div className="flex flex-wrap items-center gap-2 border-b border-slate-200 pb-4 mb-8">
             <button
               type="button"
-              onClick={() => handleTabChange('departments')}
-              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
-                activeTab === 'departments'
-                  ? 'bg-primary-600 text-white shadow-md'
-                  : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
-              }`}
-            >
-              <Building2 className="h-4 w-4" />
-              <span>Municipal Departments ({departmentsDirectory.length})</span>
-            </button>
-
-            <button
-              type="button"
               onClick={() => handleTabChange('executive')}
               className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
                 activeTab === 'executive'
@@ -207,6 +194,19 @@ export default function Government() {
             >
               <Landmark className="h-4 w-4" />
               <span>Sangguniang Bayan</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => handleTabChange('departments')}
+              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
+                activeTab === 'departments'
+                  ? 'bg-primary-600 text-white shadow-md'
+                  : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
+              }`}
+            >
+              <Building2 className="h-4 w-4" />
+              <span>Municipal Departments ({departmentsDirectory.length})</span>
             </button>
 
             <button
@@ -329,7 +329,7 @@ export default function Government() {
                     Office of the Municipal Mayor & LGU Complex
                   </h3>
                   <p className="text-slate-300 text-xs leading-relaxed max-w-2xl">
-                    Municipal Hall, Barangay II (Poblacion), Baler, Aurora 3200 • Open Monday to Friday, 8:00 AM – 5:00 PM (PST)
+                    Municipal Hall, Barangay II (Poblacion), Baler, Aurora 3200 • Open Monday to Thursday, 7:00 AM – 6:00 PM (PST)
                   </p>
                 </div>
                 <div className="flex items-center gap-3 shrink-0">
