@@ -1,0 +1,11 @@
+# Bids and Awards Committee/Secretariat Category Pages
+
+pages:
+  - name: "Procurement Of Goods, Civil Works And Consulting Services Through Public Bidding"
+    slug: "procurement-through-public-bidding"
+    description: "Procurement process through public bidding."
+
+  - name: "Procurement Of Goods, Civil Works And Consulting Services Through Alternative Method Of Procurement"
+    slug: "procurement-through-alternative-method"
+    description: "Procurement process through alternative methods."
+

@@ -1,0 +1,11 @@
+# Baler Slaughterhouse Category Pages
+
+pages:
+  - name: "Registration And Transfer Of Large Cattle"
+    slug: "registration-and-transfer-of-large-cattle"
+    description: "Ownership and transfer registration for large cattle."
+
+  - name: "Payment Of Slaughter Fee And Corral Fee"
+    slug: "payment-of-slaughter-fee"
+    description: "Permit to slaughter animals for public consumption."
+

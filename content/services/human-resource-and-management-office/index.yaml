@@ -1,0 +1,23 @@
+# Human Resource and Management Office Category Pages
+
+pages:
+  - name: "Application For Permanent Position"
+    slug: "application-for-permanent-position"
+    description: "Appointment in the Local Government Unit of Baler based on merit and fitness."
+
+  - name: "Request For Certificate Of Employment And Compensation, Service Record"
+    slug: "request-for-coe-and-service-record"
+    description: "Issuance of certificates needed by officials, employees and former employees relative to their services."
+
+  - name: "Application For Vacation/Sick/Maternity Leave"
+    slug: "application-for-leave"
+    description: "Administration of leave of municipal officials and employees."
+
+  - name: "Processing Of Terminal Leave (Retirement/Resignation/Death)"
+    slug: "processing-of-terminal-leave"
+    description: "Terminal leave refers to the cash value of an employee's total accumulated leave credits."
+
+  - name: "Application For Loans"
+    slug: "application-for-loans"
+    description: "LGU-Baler officials and employees may apply salary loans from different financial institutions."
+

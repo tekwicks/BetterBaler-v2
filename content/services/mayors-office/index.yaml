@@ -1,0 +1,23 @@
+# Office of the Municipal Mayor Category Pages
+
+pages:
+  - name: "Request For Mayor's Clearance"
+    slug: "request-for-mayors-clearance"
+    description: "The Mayor's Clearance is issued to individuals needing a document stating that he/she has no pending case filed with the Office of the Mayor."
+
+  - name: "Request For Transfer Of Cadaver"
+    slug: "request-for-transfer-of-cadaver"
+    description: "Transfer of Cadaver is issued if the remains will be transferred to other place for burial."
+
+  - name: "Request Endorsement / Recommendation Letter"
+    slug: "request-endorsement-recommendation-letter"
+    description: "For individuals needing a recommendation or endorsement from the Mayor."
+
+  - name: "Request For Service Vehicle"
+    slug: "request-for-service-vehicle"
+    description: "Request for a service vehicle for transferring patients to other hospitals."
+
+  - name: "Request For Financial Assistance"
+    slug: "request-for-financial-assistance"
+    description: "Financial assistance to indigent individuals or families with disease and/or illness health problems, or to defray funeral expenses."
+

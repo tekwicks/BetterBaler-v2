@@ -1,0 +1,11 @@
+# Municipal Assessor's Office Category Pages
+
+pages:
+  - name: "Issuance Of Tax Declaration"
+    slug: "issuance-of-tax-declaration"
+    description: "Owner's copy of tax declaration issued upon transfer of ownership of real property."
+
+  - name: "Issuance Of Certifications On Tax Declaration, Property Holdings Or Non-Improvement, Certified True Copy"
+    slug: "issuance-of-certifications-on-tax-declaration"
+    description: "Certified true copies or certifications of property holdings."
+

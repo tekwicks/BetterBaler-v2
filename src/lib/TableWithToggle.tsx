@@ -85,12 +85,12 @@ export const TableWithToggle = ({
   theme: TypographyTheme;
 } & HTMLAttributes<HTMLTableElement>) => {
   const [viewMode, setViewMode] = useState<'table' | 'list'>('table');
-  const [isMobile, setIsMobile] = useState(false);
 
   // Set responsive default view
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 640); // sm breakpoint
+      const mobile = window.innerWidth < 640;
+      setViewMode(mobile ? 'list' : 'table');
     };
 
     // Check on mount
@@ -101,15 +101,6 @@ export const TableWithToggle = ({
 
     return () => window.removeEventListener('resize', checkScreenSize);
   }, []);
-
-  // Set default view based on screen size
-  useEffect(() => {
-    if (isMobile) {
-      setViewMode('list');
-    } else {
-      setViewMode('table');
-    }
-  }, [isMobile]);
 
   // Extract table data for list view
   const tableData = useMemo(() => {
@@ -274,9 +265,9 @@ export const TableWithToggle = ({
               <div className="text-yellow-800 text-sm">
                 <strong>Debug Info:</strong>
                 <br />
-                Headers: {JSON.stringify(tableData?.headers || [])}
+                Headers count: {tableData?.headers?.length || 0}
                 <br />
-                Rows: {JSON.stringify(tableData?.rows || [])}
+                Rows count: {tableData?.rows?.length || 0}
                 <br />
                 Children type: {typeof children}
                 <br />

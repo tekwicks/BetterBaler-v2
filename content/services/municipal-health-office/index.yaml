@@ -1,0 +1,51 @@
+# Municipal Health Office Category Pages
+
+pages:
+  - name: "Outpatient Consultation"
+    slug: "outpatient-consultation"
+    description: "Service catering to patients with non-emergency cases."
+
+  - name: "Issuance Of Medical Certificate"
+    slug: "issuance-of-medical-certificate"
+    description: "Document stating the current medical status of a patient."
+
+  - name: "Availment Of Free Medicine"
+    slug: "availment-of-free-medicine"
+    description: "Walk-in clients may avail free medicine upon presenting a prescription."
+
+  - name: "Preparation Of Death Certificate"
+    slug: "preparation-of-death-certificate"
+    description: "Legal document containing the identity and mortality cause of a person."
+
+  - name: "Issuance Of Medico Legal Certificate"
+    slug: "issuance-of-medico-legal-certificate"
+    description: "Document stating the result of a medical examination attest by the physician."
+
+  - name: "Issuance Of Sanitary Permit"
+    slug: "issuance-of-sanitary-permit"
+    description: "Required for engaging in Food and Non-Food business."
+
+  - name: "Issuance Of Health Card And Certificate"
+    slug: "issuance-of-health-card-and-certificate"
+    description: "Required for food handlers of Food Establishments."
+
+  - name: "Issuance Of Exhumation And Transfer Of Remains"
+    slug: "issuance-of-exhumation-and-transfer-of-remains"
+    description: "For individuals wishing to exhume or transfer the remains of their dead relatives."
+
+  - name: "Issuance Of Certificate Of Potability Of Water"
+    slug: "issuance-of-certificate-of-potability-of-water"
+    description: "Issued by the Municipal Health Office."
+
+  - name: "Dental Services"
+    slug: "dental-services"
+    description: "Offered to residents to prevent and treat dental diseases."
+
+  - name: "Laboratory Services"
+    slug: "laboratory-services"
+    description: "Laboratory examination as an aid in diagnosis of diseases."
+
+  - name: "TB DOTS"
+    slug: "tb-dots"
+    description: "Tuberculosis treatment services."
+

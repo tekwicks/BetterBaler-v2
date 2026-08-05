@@ -1,0 +1,47 @@
+# Business Permit and Licensing Office Category Pages
+
+pages:
+  - name: "Application For Business Permit (New Application)"
+    slug: "application-for-business-permit-new"
+    description: "Before starting a business in the Municipality of Baler a business permit must be secured from the Business Permit and Licensing Office."
+
+  - name: "Application For Business Permit (Renewal Application)"
+    slug: "application-for-business-permit-renewal"
+    description: "The renewal of a business permit involves a series of steps and services designed to ensure compliance."
+
+  - name: "Application For Business Permit (Online Application)"
+    slug: "application-for-business-permit-online"
+    description: "Facilitated online through the eLGU Business Permit and Licensing System (eLGU BPLS)."
+
+  - name: "Application For Motorized Tricycle Operator's Permit (MTOP)"
+    slug: "application-for-mtop"
+    description: "Granting permit to operate a tricycle-for-hire within specified zones in the Municipality."
+
+  - name: "Application For Mayor's Permit Of Fishing Vessel, Gear And Fishing Activities"
+    slug: "application-for-fishing-vessel-permit"
+    description: "Annual registration fee from the owner of each fishing boat or motorboat operated within the municipal water."
+
+  - name: "Application For Occupational Permit"
+    slug: "application-for-occupational-permit"
+    description: "Annual occupation or calling fee on all individuals engaged in the exercise or practice of their occupation."
+
+  - name: "Application For Peddler's Permit"
+    slug: "application-for-peddlers-permit"
+    description: "Issued to any person who travels from place to place and sells his goods."
+
+  - name: "Application For Special Permit"
+    slug: "application-for-special-permit"
+    description: "Permit for conducting any program or activity involving the grouping of people for not more than 24 hours."
+
+  - name: "Request For The Certificate Of Business Retirement"
+    slug: "request-for-certificate-of-business-retirement"
+    description: "Upon termination of the business, submit a sworn statement of gross sales for the current year."
+
+  - name: "Request For The Certificate Of No Business"
+    slug: "request-for-certificate-of-no-business"
+    description: "Certification that residents are not operating any business in the municipality."
+
+  - name: "Request For Business Registration Masterlist"
+    slug: "request-for-business-registration-masterlist"
+    description: "Request for business registration master list."
+

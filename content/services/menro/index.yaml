@@ -1,0 +1,11 @@
+# Municipal Environment and Natural Resources Office Category Pages
+
+pages:
+  - name: "Issuance Of ESWM Certificate"
+    slug: "issuance-of-eswm-certificate"
+    description: "Ecological Solid Waste Management (ESWM) clearance fee."
+
+  - name: "Issuance Of Certification To Couple Applying For Marriage License"
+    slug: "issuance-of-certification-for-marriage-license"
+    description: "Requirement for a couple applying for marriage license to sponsor seedlings."
+

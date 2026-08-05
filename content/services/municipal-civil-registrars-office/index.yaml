@@ -1,0 +1,63 @@
+# Municipal Civil Registrar's Office Category Pages
+
+pages:
+  - name: "Registration Of Birth, Marriage And Death Certificate (From Institutions)"
+    slug: "registration-of-vital-certificates-from-institutions"
+    description: "Registration of vital events."
+
+  - name: "Registration Of Certificate Of Live Birth: Current/Outright"
+    slug: "registration-of-live-birth-current"
+    description: "Registered within thirty (30) days from the time of birth."
+
+  - name: "Registration Of Certificate Of Live Birth: Delayed"
+    slug: "registration-of-live-birth-delayed"
+    description: "Delayed registration of birth."
+
+  - name: "Registration Of Certificate Of Marriage: Delayed/ Reconstruction"
+    slug: "registration-of-marriage-delayed"
+    description: "Delayed registration of marriage."
+
+  - name: "Registration Of Certificate Of Death: Current/Outright"
+    slug: "registration-of-death-current"
+    description: "Reporting death within 48 hours or thirty days."
+
+  - name: "Registration Of Certificate Of Death: Delayed"
+    slug: "registration-of-death-delayed"
+    description: "Delayed registration of death."
+
+  - name: "Registration Of R.A 9255: Affidavit To Use The Surname Of The Father (AUSF)"
+    slug: "registration-of-ra-9255-ausf"
+    description: "Allowing an illegitimate child to use the surname of their father."
+
+  - name: "Application For RA 9048: Change Of First Name & RA 10172 (Gender/Month/Date)"
+    slug: "application-for-ra-9048-and-10172"
+    description: "Correcting clerical or typographical errors."
+
+  - name: "Application For R.A 9048: Correction Of Clerical Error"
+    slug: "application-for-ra-9048-clerical-error"
+    description: "Authorizing the municipal civil registrar to correct clerical errors."
+
+  - name: "Registration Of Court Order/Decree/Legal Instruments"
+    slug: "registration-of-court-orders"
+    description: "Registering court orders/decrees concerning the status of a person."
+
+  - name: "Application For Marriage License (AFML)"
+    slug: "application-for-marriage-license"
+    description: "Issuing marriage license where either contracting party habitually resides."
+
+  - name: "Request For Certification/Transcription From The Registry Book (Form 1A)"
+    slug: "request-for-certification-from-registry-book"
+    description: "Transcription from the registry book."
+
+  - name: "Request For Advance Submission Of Documents And Negative Certification To PSA-APO"
+    slug: "request-for-advance-submission-to-psa-apo"
+    description: "Submission of civil registry documents to OCRG."
+
+  - name: "Request For Security Paper (SECPA) From PSA Thru BREQS"
+    slug: "request-for-secpa-from-psa-thru-breqs"
+    description: "Receive requests for PSA-issued copies and certifications."
+
+  - name: "Endorsement Of Parents' Advice Or Consent"
+    slug: "endorsement-of-parents-advice-or-consent"
+    description: "Endorsement of parent's advice or consent."
+
