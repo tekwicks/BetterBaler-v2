@@ -1,0 +1,43 @@
+# Agriculture & Fisheries Category Pages (MAO Baler - Citizen's Charter 2023)
+# Municipal Agriculture Office - Baler, Aurora
+
+pages:
+  - name: 'Provision of Technical Assistance for Crops, Livestock & Fishery'
+    slug: 'ask-for-free-seeds-seedlings-fertilizers-or-fingerlings'
+    description: 'Technical guidance, field consultations, and farming advice on rice, corn, high-value crops, and aquaculture.'
+
+  - name: 'Enrollment in RSBSA (Registry System for Basic Sectors in Agriculture)'
+    slug: 'enrollment-in-rsbsa-registry-system-for-basic-sectors-in-agriculture'
+    description: 'Registration of farmers, farm workers, and fisherfolk to access government subsidies and crop insurance.'
+
+  - name: 'Issuance of Farmers Certificate'
+    slug: 'issuance-of-farmers-certificate'
+    description: 'Verification of registered farmer status from RSBSA general masterlist for loans and assistance.'
+
+  - name: 'Online Fisherfolk Registration (FishR)'
+    slug: 'online-fisherfolks-registration-fishr'
+    description: 'National fisherfolk database enrollment and assignment of unique FishR numbers.'
+
+  - name: 'Online Boat Registration (BoatR) for Vessels 3 GT and Below'
+    slug: 'online-boat-registration-boatr'
+    description: 'Registration of municipal fishing boats with gross tonnage of 3 GT and below, issuing MVR numbers.'
+
+  - name: 'License for Fishing Boat, Gear & Fishing Activity Permit'
+    slug: 'license-for-fishing-boat-gear-and-permit'
+    description: 'MAO non-involvement certification and permit processing for commercial/municipal fishing vessels and gear.'
+
+  - name: 'Availment of Farm Machineries & Fishing Paraphernalia'
+    slug: 'borrow-farm-tools-or-equipment-from-the-lgu'
+    description: 'Requests for agricultural machinery (from DA RFO 3) and fishing paraphernalia/gear (from BFAR 3 / PFARO).'
+
+  - name: 'Veterinary Health Services & Genetic Improvement'
+    slug: 'get-veterinary-services-for-livestock'
+    description: 'Livestock health care, vitamin supplementation, deworming, vaccination, and artificial insemination.'
+
+  - name: 'Availment of Planting Materials & Fruit Tree Seedlings'
+    slug: 'availment-of-planting-materials'
+    description: 'Distribution of high-value vegetable seeds, rice/corn seeds, and fruit-bearing tree seedlings.'
+
+  - name: 'Issuance of Certificate of Land Suitability'
+    slug: 'issuance-of-certificate-of-land-suitability'
+    description: 'Ocular inspection and land suitability certification for agricultural development, NIA, or land transfer.'

@@ -1,0 +1,23 @@
+# Housing & Land Use Category Pages (Municipal Assessor & MPDO - Citizen's Charter 2023)
+# Municipal Assessor's Office & Municipal Planning and Development Office - Baler, Aurora
+
+pages:
+  - name: 'Issuance of Tax Declaration (Transfer of Ownership)'
+    slug: 'issuance-of-tax-declaration-transfer-of-ownership'
+    description: 'Updating Municipal real property tax records and transferring Tax Declaration to new property owners.'
+
+  - name: 'Issuance of Certifications on Tax Declaration or Property Holdings'
+    slug: 'issuance-of-certifications-on-tax-declaration-or-property-holdings'
+    description: 'Certifications of property holdings, non-improvement, certified true copies of Tax Declarations, and CAR annotations.'
+
+  - name: 'Issuance of Socio-Economic / Spatial Data & Thematic Maps'
+    slug: 'issuance-of-socio-economic-spatial-data-and-thematic-maps'
+    description: 'MPDO maps, spatial GIS layers, demographic statistics, and municipal planning data.'
+
+  - name: 'Issuance of MPDO / Zoning Certifications'
+    slug: 'issuance-of-mpdo-zoning-certifications'
+    description: 'Support certifications for land reclassification, ECC, public land applications, and CDP/CLUP compliance.'
+
+  - name: 'Issuance of Zoning Locational Clearance'
+    slug: 'issuance-of-zoning-locational-clearance'
+    description: 'Prerequisite locational clearance for securing Building Permits and new Business Permits in Baler.'

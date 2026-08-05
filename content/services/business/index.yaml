@@ -1,0 +1,51 @@
+# Business & Livelihood Category Pages (BPLO Baler - Citizen's Charter 2023)
+# Business Permit & Licensing Office - Baler, Aurora
+
+pages:
+  - name: "Application for Business Permit (New Application)"
+    slug: "apply-for-barangay-clearance-and-mayors-business-permits"
+    description: "Step-by-step procedure for securing new Mayor's Business Permits via BOSS (Business One-Stop Shop)."
+
+  - name: "Application for Business Permit (Renewal Application)"
+    slug: "renew-permits-and-pay-local-business-taxes"
+    description: "Annual business permit renewal, tax assessment, and clearance processing for existing enterprises."
+
+  - name: "Online Business Permit Application (eLGU BPLS Portal)"
+    slug: "online-business-permit-application-elgu-bpls"
+    description: "Online filing, assessment, and tax payment via the official eLGU portal at ebpls.baler.gov.ph."
+
+  - name: "Motorized Tricycle Operator's Permit (MTOP)"
+    slug: "motorized-tricycle-operators-permit-mtop"
+    description: "Franchise certificate, MTOP plate, annual sticker, and official Fare Matrix (Taripa) for tricycle operators."
+
+  - name: "Mayor's Permit for Fishing Vessel, Gear & Fishing Activities"
+    slug: "mayors-permit-for-fishing-vessel-and-gear"
+    description: "Annual registration and licensing for motorized/non-motorized fishing boats, hook & line, gillnet, or beach seine."
+
+  - name: "Application for Occupational Permit"
+    slug: "application-for-occupational-permit"
+    description: "Annual occupation fee clearance for employees working in private commercial establishments in Baler."
+
+  - name: "Application for Peddler's Permit (Ambulant Vendors)"
+    slug: "application-for-peddlers-permit"
+    description: "Permits and sanitary/health clearances for ambulant vendors traveling from place to place in Baler."
+
+  - name: "Application for Special Permit (Events, Shows & Filming)"
+    slug: "application-for-special-permit"
+    description: "Mayor's permit for events, outdoor rallies, sports activities, commercial film, TV, or video shooting."
+
+  - name: "Request for Certificate of Business Retirement or No Business"
+    slug: "certificate-of-business-retirement-or-no-business"
+    description: "Securing official certifications for business closure or proof of non-operation within the municipality."
+
+  - name: "Request for Business Registration Masterlist"
+    slug: "request-for-business-registration-masterlist"
+    description: "Requesting certified masterlists of registered businesses for official, academic, or institutional use."
+
+  - name: "Public Market Stall Rental & Sealing of Weights & Measures"
+    slug: "rent-stalls-in-public-markets"
+    description: "Stall leasing at Baler Public Market, Pasalubong Center, and mandatory bi-annual testing/sealing of weighing scales."
+
+  - name: "Application for Investment Incentive (Baler Investment Code)"
+    slug: "baler-investment-incentive-application"
+    description: "Tax incentives and support for new investments in tourism, BPO, IT, agriculture, and green economy projects."

@@ -1,0 +1,23 @@
+# Disaster Preparedness Category Pages (MDRRMO Baler - Citizen's Charter 2023)
+# Municipal Disaster Risk Reduction & Management Office - Baler, Aurora
+
+pages:
+  - name: 'Request for Emergency Response (Hotline: 0920-594-1906)'
+    slug: 'request-for-emergency-response'
+    description: '24/7 immediate emergency response, rescue operations, and patient transport. Hotline: 0920-594-1906.'
+
+  - name: 'Request for Information, Education & Communication (IEC) Materials'
+    slug: 'access-disaster-preparedness-information-and-early-warning-systems'
+    description: 'Disaster risk reduction manuals, early warning system guides, and typhoon/earthquake readiness brochures.'
+
+  - name: 'Request for MDRRM Training, Seminars, Drills & Resource Speakers'
+    slug: 'join-disaster-drills-and-evacuation-planning'
+    description: 'Community, barangay, and school earthquake/typhoon drills, basic life support, and disaster response training.'
+
+  - name: 'Request for Equipment Assistance Lending'
+    slug: 'request-for-equipment-assistance'
+    description: 'Lending of MDRRMO rescue equipment, chainsaws, generators, and safety gear for official requests.'
+
+  - name: 'Request for Standby Emergency Medical Services'
+    slug: 'learn-about-emergency-response-procedures-and-evacuation-routes'
+    description: 'Deployment of standby Emergency Response Teams and ambulances for public gatherings and community events.'

@@ -1,0 +1,15 @@
+# Garbage and Waste Disposal Category Pages (MENRO Baler - Citizen's Charter 2023)
+# Municipal Environment and Natural Resources Office - Baler, Aurora
+
+pages:
+  - name: 'Issuance of ESWM (Ecological Solid Waste Management) Certificate'
+    slug: 'issuance-of-eswm-certificate'
+    description: 'Mandatory ESWM clearance fee and certificate for commercial, industrial, institutional, and agricultural businesses.'
+
+  - name: 'Garbage Collection Schedule & Household Waste Segregation'
+    slug: 'learn-proper-waste-segregation-and-disposal-methods'
+    description: 'Baler municipal collection schedules, biodegradable vs. non-biodegradable guidelines, and RA 9003 compliance.'
+
+  - name: 'Report Illegal Dumping or Environmental Violations'
+    slug: 'report-illegal-dumping-or-waste-management-violations'
+    description: 'Reporting unauthorized waste dumping, open burning, or environmental sanitation violations to MENRO.'

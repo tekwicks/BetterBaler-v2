@@ -1,0 +1,11 @@
+# Environment Category Pages (MENRO Baler - Citizen's Charter 2023)
+# Municipal Environment and Natural Resources Office - Baler, Aurora
+
+pages:
+  - name: 'Seedling Sponsorship Certification for Marriage License'
+    slug: 'certification-to-couple-applying-for-marriage-license-tree-seedling-sponsorship'
+    description: 'Mandatory tree seedling sponsorship/donation certification for couples applying for a marriage license.'
+
+  - name: 'Environmental Protection & Tree Planting Programs'
+    slug: 'environmental-protection-and-coastal-clean-up-activities'
+    description: 'Community tree planting, coastal clean-ups along Sabang Beach, mangrove conservation, and MENRO environmental initiatives.'

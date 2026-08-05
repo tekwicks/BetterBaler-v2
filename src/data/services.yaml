@@ -4,104 +4,70 @@
 # Non-technical users can easily edit this file to add, remove, or modify service categories
 
 categories:
-  - category: 'Office of the Municipal Mayor'
-    slug: 'mayors-office'
-    description: "Mayor's clearance, transfer of cadaver, endorsement letters, service vehicle requests, and financial assistance."
-    icon: 'Landmark'
+  # Health Services
+  - category: 'Health Services'
+    slug: 'health-services'
+    description: 'Where to go for free check-ups, vaccines, and medicines, which hospitals are available, and details on health programs in your area.'
+    icon: 'Heart'
 
-  - category: 'Business Permit and Licensing Office'
-    slug: 'business-permit-and-licensing-office'
-    description: "Application and renewal of business permits, motorized tricycle operator's permit (MTOP), occupational permits, and special permits."
-    icon: 'Briefcase'
+  # Education Services
+  - category: 'Education'
+    slug: 'education'
+    description: 'Where to enroll kids in daycare or preschool, how to apply for scholarships, and what education support your LGU offers.'
+    icon: 'GraduationCap'
 
-  - category: 'Human Resource and Management Office'
-    slug: 'human-resource-and-management-office'
-    description: "Application for permanent positions, certificates of employment, leave applications, terminal leave processing, and loans."
+  # Business & Livelihood Services
+  - category: 'Business and Livelihood'
+    slug: 'business'
+    description: 'What permits and clearances you need, where to pay taxes or renew permits, and what livelihood or trade opportunities are offered.'
+    icon: 'Building2'
+
+  # Social Welfare Services
+  - category: 'Social Welfare'
+    slug: 'social-welfare'
+    description: 'What assistance is available for seniors, PWDs, solo parents, and indigent families, plus details on relief goods, and livelihood aid.'
     icon: 'Users'
+  
+  # Agriculture & Fisheries Services
+  - category: 'Agriculture & Fisheries'
+    slug: 'agriculture-fisheries'
+    description: 'What farm or fishing support is available, including seeds, fertilizers, veterinary care, and where to join training or borrow equipment.'
+    icon: 'Wheat'
+  
+  # Infrastructure & Public Works Services
+  - category: 'Infrastructure & Public Works'
+    slug: 'infrastructure-public-works'
+    description: 'How to report damaged roads or drainage, where to request water supply, and how to access public facilities and markets.'
+    icon: 'Wrench'
+  
+  # Garbage and Waste Disposal Services
+  - category: 'Garbage and Waste Disposal'
+    slug: 'garbage-waste-disposal'
+    description: 'Garbage collection schedules, waste disposal guidelines, and how to properly dispose of different types of waste.'
+    icon: 'Trash2'
+  
+  # Environment Services
+  - category: 'Environment'
+    slug: 'environment'
+    description: 'Clean-up or tree planting activities, environmental protection rules, and conservation programs.'
+    icon: 'TreePine'
+  
+  # Disaster Preparedness Services
+  - category: 'Disaster Preparedness'
+    slug: 'disaster-preparedness'
+    description: 'Disaster preparedness plans, emergency response information, and evacuation procedures.'
+    icon: 'Shield'
+  
+  # Housing & Land Use Services
+  - category: 'Housing & Land Use'
+    slug: 'housing-land-use'
+    description: 'How to apply for housing projects, what zoning and building permits are needed, and where relocation sites are available.'
+    icon: 'Home'
 
-  - category: 'Municipal Local and Regional Development Office'
-    slug: 'municipal-local-and-regional-development-office'
-    description: "Application for investment incentives and business planning."
-    icon: 'TrendingUp'
-
-  - category: 'Municipal Disaster Risk Reduction and Management Office'
-    slug: 'mdrrmo'
-    description: "Emergency response, disaster risk reduction training, IEC materials, and standby emergency medical services."
-    icon: 'ShieldAlert'
-
-  - category: 'Municipal Treasurer''s Office'
-    slug: 'municipal-treasurers-office'
-    description: "Payment of real property taxes, business taxes, community tax certificates, tax clearances, and other fees."
-    icon: 'Wallet'
-
-  - category: 'Municipal Assessor''s Office'
-    slug: 'municipal-assessors-office'
-    description: "Issuance of tax declarations, certifications of property holdings, and certified true copies of tax declarations."
-    icon: 'Map'
-
-  - category: 'Municipal Civil Registrar''s Office'
-    slug: 'municipal-civil-registrars-office'
-    description: "Registration of birth, marriage, and death certificates, marriage licenses, AUSF (RA 9255), and PSA SECPA requests."
+  # Civil Registry Services
+  - category: 'Civil Registry'
+    slug: 'civil-registry'
+    description: 'Registration of birth, marriage, and death certificates, marriage licenses, AUSF (RA 9255), clerical error corrections (RA 9048/10172), and BREQS SECPA requests.'
     icon: 'FileText'
-
-  - category: 'Municipal Health Office'
-    slug: 'municipal-health-office'
-    description: "Outpatient consultations, free medicines, medical/medico-legal certificates, sanitary permits, health cards, and laboratory services."
-    icon: 'HeartPulse'
-
-  - category: 'Municipal Agriculture Office'
-    slug: 'municipal-agriculture-office'
-    description: "Technical assistance for crops/fisheries, RSBSA enrollment, farmers' certificates, boat/fisherfolk registration, and veterinary services."
-    icon: 'Tractor'
-
-  - category: 'Municipal Engineering Office'
-    slug: 'municipal-engineering-office'
-    description: "Application for building permits, certificates of occupancy, and sign permits."
-    icon: 'HardHat'
-
-  - category: 'Municipal Planning and Development Office'
-    slug: 'municipal-planning-and-development-office'
-    description: "Issuance of socio-economic/spatial data, zoning certifications, and locational clearances."
-    icon: 'MapPin'
-
-  - category: 'Bids and Awards Committee / Secretariat'
-    slug: 'bac-secretariat'
-    description: "Procurement of goods, civil works, and consulting services through public bidding or alternative methods."
-    icon: 'Gavel'
-
-  - category: 'Municipal Accounting Office'
-    slug: 'municipal-accounting-office'
-    description: "Issuance of BIR Form 2307, processing of disbursement vouchers, and advice of checks issued."
-    icon: 'Calculator'
-
-  - category: 'Municipal Budget Office'
-    slug: 'municipal-budget-office'
-    description: "Control of obligation requests (OBR), and review of barangay and SK annual/supplemental budgets."
-    icon: 'PieChart'
-
-  - category: 'Municipal Environment and Natural Resources Office'
-    slug: 'menro'
-    description: "Issuance of ESWM certificates and certification for couples applying for marriage licenses (tree seedling sponsorship)."
-    icon: 'Leaf'
-
-  - category: 'Baler Public Market'
-    slug: 'baler-public-market'
-    description: "Payment of stall rentals, sealing of weights and measures, market entrance fees, and sports complex usage fees."
-    icon: 'Store'
-
-  - category: 'Baler Slaughterhouse'
-    slug: 'baler-slaughterhouse'
-    description: "Registration and transfer of large cattle, and payment of slaughter and corral fees."
-    icon: 'Scissors'
-
-  - category: 'Municipal Fishport'
-    slug: 'municipal-fishport'
-    description: "Payment of berthing fees, fishport stall rentals, and other service charges."
-    icon: 'Ship'
-
-  - category: 'Baler Central Terminal'
-    slug: 'baler-central-terminal'
-    description: "Payment of berthing fees for buses, vans, and tricycles at the central terminal."
-    icon: 'Bus'
 
   

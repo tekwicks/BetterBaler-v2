@@ -1,7 +1,0 @@
-# Baler Central Terminal Category Pages
-
-pages:
-  - name: "Payment Of Berthing Fee"
-    slug: "payment-of-terminal-berthing-fee"
-    description: "Berthing fee charged to bus and van operators at the terminal."
-

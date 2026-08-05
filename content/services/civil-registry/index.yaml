@@ -1,0 +1,51 @@
+# Civil Registry Services Category Pages (MCRO Baler - Citizen's Charter 2023)
+# Municipal Civil Registrar's Office - Baler, Aurora
+
+pages:
+  - name: 'Registration of Birth, Marriage, and Death Certificates (From Institutions)'
+    slug: 'registration-of-birth-marriage-death-certificates'
+    description: 'Registration of vital documents issued by hospitals, churches, or medical facilities within 30 days.'
+
+  - name: 'Registration of Certificate of Live Birth (Outright & Delayed)'
+    slug: 'registration-of-certificate-of-live-birth-outright-or-delayed'
+    description: 'Procedure for timely birth registration (within 30 days) and delayed birth registration.'
+
+  - name: 'Application for Marriage License (AFML)'
+    slug: 'application-for-marriage-license-afml'
+    description: 'Requirements and processing of marriage license for contracting parties residing in Baler.'
+
+  - name: 'Registration of Certificate of Marriage (Delayed / Reconstruction)'
+    slug: 'registration-of-certificate-of-marriage-delayed-or-reconstruction'
+    description: 'Filing for delayed registration or reconstruction of destroyed marriage certificates.'
+
+  - name: 'Registration of Certificate of Death (Outright & Delayed)'
+    slug: 'registration-of-certificate-of-death-outright-or-delayed'
+    description: 'Reporting and registering death certificates within 48 hours to 30 days from death.'
+
+  - name: 'Registration of R.A. 9255 (Affidavit to Use the Surname of the Father - AUSF)'
+    slug: 'ra-9255-affidavit-to-use-surname-of-father-ausf'
+    description: 'Execution and annotation of AUSF for illegitimate children to use their father surname.'
+
+  - name: 'R.A. 9048 & R.A. 10172 (Correction of Clerical Error, Change of First Name & Sex/Date of Birth)'
+    slug: 'ra-9048-and-ra-10172-change-of-first-name-gender-or-correction'
+    description: 'Petitions for administrative correction of typographical errors, change of first name, sex, or birth date.'
+
+  - name: 'Registration of Court Order / Decree and Legal Instruments'
+    slug: 'registration-of-court-order-decree-and-legal-instruments'
+    description: 'Registration of legal separation, nullity of marriage, adoption, and other court orders.'
+
+  - name: 'Request for Certification / Transcription from Registry Book (Form 1A)'
+    slug: 'request-for-certification-transcription-form-1a'
+    description: 'Securing certified transcriptions or copies of civil registry documents from LGU records.'
+
+  - name: 'Advance Submission & Negative Certification to PSA-APO (Electronic Endorsement)'
+    slug: 'advance-submission-and-negative-certification-psa-apo'
+    description: 'Facilitating fast electronic endorsement of vital records to PSA Provincial/Main Archives.'
+
+  - name: 'Request for Security Paper (SECPA) from PSA via BREQS'
+    slug: 'security-paper-secpa-from-psa-thru-breqs'
+    description: 'Applying for official PSA SECPA copies of birth, marriage, death, and CENOMAR at Baler BREQS outlet.'
+
+  - name: 'Endorsement of Parents Advice or Consent for Marriage'
+    slug: 'endorsement-of-parents-advice-or-consent'
+    description: 'Securing required parental consent (ages 18-21) or parental advice (ages 21-25) for marriage.'

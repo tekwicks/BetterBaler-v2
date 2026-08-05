@@ -1,0 +1,51 @@
+# Health Services Category Pages (MHO Baler - Citizen's Charter 2023)
+# Municipal Health Office - Rural Health Unit (RHU) Baler, Aurora
+
+pages:
+  - name: 'Outpatient Consultation & Medical Services'
+    slug: 'get-free-check-ups-basic-medicines-and-vaccines'
+    description: 'Free medical consultations, physical examinations, history taking, and health management at RHU Baler.'
+
+  - name: 'Issuance of Medical Certificate'
+    slug: 'issuance-of-medical-certificate'
+    description: 'Medical certificate issuance for employment, school requirements, PWDs, and general public needs.'
+
+  - name: 'Availment of Free Medicine & Prescription Dispensing'
+    slug: 'availment-of-free-medicine'
+    description: 'Walk-in clients presenting prescriptions can receive free essential medicines at the RHU dispensary.'
+
+  - name: 'Preparation of Death Certificate'
+    slug: 'preparation-of-death-certificate'
+    description: 'Verification of mortality cause and preparation of official Death Certificate for legal filing.'
+
+  - name: 'Issuance of Medico-Legal Certificate'
+    slug: 'issuance-of-medico-legal-certificate'
+    description: 'Physical examination and certification by municipal health physician for legal and police cases.'
+
+  - name: 'Issuance of Sanitary Permit'
+    slug: 'issuance-of-sanitary-permit'
+    description: 'Mandatory sanitary permit evaluation for food and non-food business establishments in Baler.'
+
+  - name: 'Issuance of Health Card and Certificate'
+    slug: 'issuance-of-health-card-and-certificate'
+    description: 'Health cards for food handlers, resto-bar workers, and non-food establishment personnel.'
+
+  - name: 'Exhumation and Transfer of Remains Permit'
+    slug: 'issuance-of-exhumation-and-transfer-of-remains'
+    description: 'Permits and health clearances for exhumation or transfer of cadavers and deceased relatives.'
+
+  - name: 'Certificate of Potability of Water'
+    slug: 'issuance-of-certificate-of-potability-of-water'
+    description: 'Water quality certification based on accredited laboratory microbiological and physical-chemical tests.'
+
+  - name: 'Dental Services (Extraction & Oral Examination)'
+    slug: 'dental-services'
+    description: 'Dental health care, tooth extraction, and oral hygiene check-ups at the Municipal Health Office.'
+
+  - name: 'Laboratory Services (CBC, Urinalysis, Fecalysis, Diagnostic Tests)'
+    slug: 'laboratory-services'
+    description: 'Diagnostic lab tests including Blood Typing, Pregnancy Test, HIV/Syphilis Rapid Tests, Dengue, and FBS.'
+
+  - name: 'TB DOTS Program & GeneXpert Examination'
+    slug: 'tb-dots-and-genexpert'
+    description: 'Free tuberculosis screening, GeneXpert testing, chest X-ray referral, and 6-month DOTS treatment.'

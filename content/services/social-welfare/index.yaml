@@ -1,0 +1,23 @@
+# Social Welfare Category Pages (Mayor's Office & MSWDO Baler - Citizen's Charter 2023)
+# Office of the Municipal Mayor & Municipal Social Welfare and Development Office
+
+pages:
+  - name: 'Request for Financial & Medical Assistance'
+    slug: 'request-for-financial-and-medical-assistance'
+    description: 'Financial aid for indigent patients (medical abstract/prescription) and burial expenses for Baler residents.'
+
+  - name: 'Request for Mayor's Clearance'
+    slug: 'request-for-mayors-clearance'
+    description: 'Issuance of Mayor clearance certifying no pending cases filed with the Office of the Mayor.'
+
+  - name: 'Request Endorsement / Recommendation Letter'
+    slug: 'request-endorsement-or-recommendation-letter'
+    description: 'Recommendation and endorsement letters for employment, scholarships, or institutional medical assistance.'
+
+  - name: 'Request for Service Vehicle / Patient Transport'
+    slug: 'request-for-service-vehicle-or-ambulance'
+    description: 'LGU service vehicle dispatch for patient transfers to hospitals outside Baler or emergency pick-ups.'
+
+  - name: 'Request for Transfer of Cadaver Permit'
+    slug: 'request-for-transfer-of-cadaver'
+    description: 'Clearance permit for transferring deceased remains across municipal or provincial boundaries for burial.'

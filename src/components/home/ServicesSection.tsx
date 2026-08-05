@@ -9,8 +9,8 @@ import {
   Heart,
   Users,
   Shield,
+  GraduationCap,
   ChevronRight,
-  Tractor,
 } from 'lucide-react';
 import { Link } from 'react-router';
 import { useTranslation } from '../../hooks/useTranslation';
@@ -57,12 +57,12 @@ export default function ServicesSection({
   }, [displayedCategories, searchQuery]);
 
   const popularQuickLinks = [
-    { label: 'Business Permit & Licensing', path: '/services/business-permit-and-licensing-office', icon: Building2 },
-    { label: 'Health Office Services', path: '/services/municipal-health-office', icon: Heart },
-    { label: 'Civil Registry & Certificates', path: '/services/municipal-civil-registrars-office', icon: FileText },
-    { label: 'HR & Management', path: '/services/human-resource-and-management-office', icon: Users },
-    { label: 'Disaster Emergency (MDRRMO)', path: '/services/mdrrmo', icon: Shield },
-    { label: 'Agriculture Office', path: '/services/municipal-agriculture-office', icon: Tractor },
+    { label: 'Business Permit & Licensing', path: '/services/business', icon: Building2 },
+    { label: 'Health Check-ups & Vaccines', path: '/services/health-services', icon: Heart },
+    { label: 'Civil Registry & Certificates', path: '/services/civil-registry', icon: FileText },
+    { label: 'Social Welfare & Senior Aid', path: '/services/social-welfare', icon: Users },
+    { label: 'Disaster Emergency Response', path: '/services/disaster-preparedness', icon: Shield },
+    { label: 'Scholarships & Education', path: '/services/education', icon: GraduationCap },
   ];
 
   return (

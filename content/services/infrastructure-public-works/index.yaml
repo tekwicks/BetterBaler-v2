@@ -1,0 +1,23 @@
+# Infrastructure & Public Works Category Pages (MEO Baler - Citizen's Charter 2023)
+# Municipal Engineering Office / Building Official - Baler, Aurora
+
+pages:
+  - name: 'Application for Building Permit (New Construction)'
+    slug: 'application-for-building-permit-new'
+    description: 'Processing new building permits for residential, commercial, and institutional structures in Baler.'
+
+  - name: 'Issuance of Certificate of Occupancy Permit'
+    slug: 'issuance-of-certificate-of-occupancy-permit'
+    description: 'Mandatory occupancy clearance inspection after structure completion prior to building use.'
+
+  - name: 'Issuance of Sign Permit'
+    slug: 'issuance-of-sign-permit'
+    description: 'Evaluation of plans, specifications, and sizes for commercial building signages in Baler.'
+
+  - name: 'Report damaged roads, bridges, or drainage'
+    slug: 'report-damaged-roads-bridges-or-drainage'
+    description: 'Reporting public infrastructure damage, broken drainage, or road repair needs to Municipal Engineering.'
+
+  - name: 'Payment of Berthing Fee & Port Charges (Fishport & Terminal)'
+    slug: 'payment-of-berthing-fee-and-port-charges-fishport-and-terminal'
+    description: 'Port berthing fees, stall rentals, and terminal departure fees at Baler Municipal Fishport & Central Terminal.'
