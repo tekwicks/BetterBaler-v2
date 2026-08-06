@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <BetterBalerLogo variant="dark" height={52} />
+              <BetterBalerLogo src="/footer-logo.png" height={52} />
             </div>
             <p className="text-slate-400 text-xs leading-relaxed mb-4">
               A community-run civic portal for the Municipality of Baler. Providing citizens, local entrepreneurs, and visitors with accessible information, municipal guides, and coastal updates.
